@@ -1,0 +1,6 @@
+confirmModulesPurge: false
+allowBuilds:
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  workerd: true
