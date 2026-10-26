@@ -11,7 +11,7 @@ assert.ok(html.includes('http-equiv="Content-Security-Policy"'));
 assert.ok(html.includes("connect-src &#x27;none&#x27;") || html.includes("connect-src 'none'"));
 assert.ok(html.includes('name="referrer" content="no-referrer"'));
 assert.ok(html.includes(`content="${siteURL}/og.png"`));
-assert.ok(html.includes('正方形にトリミング'));
+assert.ok(html.includes('写真を選んで、絵カードZIPを作りましょう'));
 assert.ok(existsSync(resolve(output, '.nojekyll')));
 assert.ok(!existsSync(resolve(output, '.openai')));
 let assetCount = 0;
